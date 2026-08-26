@@ -1,4 +1,4 @@
-package com.clearcareai.moduels.auth.repository;
+package com.clearcareai.modules.auth.repository;
 
 import java.util.Optional;
 
@@ -7,7 +7,7 @@ import org.springdoc.core.converters.models.Pageable;
 import org.springframework.data.domain.Page;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.clearcareai.moduels.auth.entity.User;
+import com.clearcareai.modules.auth.entity.User;
 
 public interface UserRepository extends JpaRepository<User, Long> {
     Optional<User> findByEmail(String email);

@@ -1,4 +1,4 @@
-package com.clearcareai.moduels.auth.entity;
+package com.clearcareai.modules.auth.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
