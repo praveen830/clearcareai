@@ -15,7 +15,7 @@ import jakarta.validation.Payload;
 
 
 public @interface ValidPassword {
-    String message() default "Password must be atleast 8 characters and contain at least one uppercase letter,one lowercase letter,one digit";
+    String message() default "Password must be atleast 8 characters and contain at atleast one uppercase letter,one atleast lowercase letter,one digit";
     Class<?>[] groups() default {}; 
     Class<? extends Payload >[] payload() default {};      
 }
